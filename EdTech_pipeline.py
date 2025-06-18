@@ -1,6 +1,6 @@
 # Databricks notebook source
 base_path = "/FileStore/tables"
-batch_date = "20250601"
+batch_date = "20250601" #hardcoded, not optimum, batch_date to be passed from airflow or other tool
 #path source for ingestion
 students_path = f"{base_path}/students.csv"
 instructors_path = f"{base_path}/instructors.csv"
